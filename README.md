@@ -2,7 +2,37 @@ crazyflie
 =========
 Här lägger allt planeringsrelaterat och uppdaterar vår projektplan.
 
-[ ] - 
-[ ] - 
-[ ] - 
-[ ] - [ ] - 
+projektplan
+-----------
+
+- lv 7 producera rapport
+- lv 6 Mål: Få en dator att via kinekt hovra en crazyflie.
+- lv 5 skriva reglering
+- lv 5 Programera kinekt (opencv?)
+- lv 4 Få kinekt att känna igen crazyflie
+- lv 4 Möjliggöra för kinekt att se crazyflien
+- lv 3 kunna koda crazyflien (python)
+- lv 2 Lära oss flyga
+
+arbetsfördelning
+----------------
+__Martin__
+Prata OpenNI med Kinect och producera data att skicka vidare
+
+__Niklas & Oskar__
+Identifiera bollen med OpenCV och implementera regulatorn i python
+
+__Viktor__
+Prata med cf och skriva init-script (?)
+
+arbetslogg
+----------
+Loggfil finns i ./LOGG.md
+
+Mall för inlägg:
+
+    ÅÅÅÅ-MM-DD : NAMN
+    beskrivning
+    end
+
+Frågor på det?
