@@ -33,6 +33,5 @@ Mall för inlägg:
 
     ÅÅÅÅ-MM-DD : NAMN
     beskrivning
-    end
 
 Frågor på det?
