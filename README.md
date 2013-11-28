@@ -47,31 +47,31 @@ eclipse med cdt plugin (help->install new software)
 
 
 För att fixa problem med att eclipse inte hittar funktioner och bibliotek  
-i c++ compilerns include (högerklicka på projektet, välj preferences, C/C++ build -> settings -> gcc c++ compiler -> includes ) ska följande finnas med under include path
-/usr/local/include
+i c++ compilerns include (högerklicka på projektet, välj preferences, C/C++ build -> settings -> gcc c++ compiler -> includes ) ska följande finnas med under include path  
+/usr/local/include  
 
 under gcc c++ linker->libraries skall följande finnas
-opencv_core
-freenect__sync
-frenect
-opencv_imgproc
-opencv_highgui
+opencv_core  
+freenect__sync  
+frenect  
+opencv_imgproc  
+opencv_highgui  
 
-i library search path
-/usr/local/lib
-/usr/local/lib64
+i library search path  
+/usr/local/lib  
+/usr/local/lib64  
 
 
 
-Om programmet inte hittar filer när det startar:
-skapa filen usr-loc-lib.conf med följande innehåll:
+Om programmet inte hittar filer när det startar:  
+skapa filen usr-loc-lib.conf med följande innehåll  
 
-/usr/local/lib
-/usr/local/lib64
+/usr/local/lib  
+/usr/local/lib64  
 
-och lägg i /etc/ld.so.conf/
-kör sedan 
-sudo ldconfig 
+och lägg i /etc/ld.so.conf/  
+kör sedan   
+sudo ldconfig  
 
 
 taadaaaa
