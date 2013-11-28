@@ -35,3 +35,26 @@ Mall för inlägg:
     beskrivning
 
 Frågor på det?
+
+
+För att utveckla behövs följande paket:
+
+OpenCv  https://help.ubuntu.com/community/OpenCV
+Freenect  http://openkinect.org/wiki/Getting_Started    skrolla ner till manual install
+eclipse med cdt plugin (help->install new software)
+
+
+För att fixa problem med att eclipse inte hittar funktioner och bibliotek
+i c++ compilern 
+
+
+
+Om programmet inte hittar filer när det startar:
+skapa filen usr-loc-lib.conf med följande innehåll:
+
+/usr/local/lib
+/usr/local/lib64
+
+kör sedan 
+sudo ldconfig 
+
