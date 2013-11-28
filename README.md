@@ -34,4 +34,51 @@ Mall för inlägg:
     ÅÅÅÅ-MM-DD : NAMN
     beskrivning
 
-Frågor på det?
+Frågor på det?  
+
+Nyttiga länkar  
+--------------
+http://opencv-srf.blogspot.se/2011/09/object-detection-tracking-using-contours.html  
+
+
+
+
+Komma igång med utvecklingen  
+----------------------------
+
+OpenCv  https://help.ubuntu.com/community/OpenCV  
+
+Freenect  http://openkinect.org/wiki/Getting_Started    skrolla ner till manual install  
+
+eclipse med cdt plugin (help->install new software)  
+
+
+För att fixa problem med att eclipse inte hittar funktioner och bibliotek  
+i c++ compilerns include (högerklicka på projektet, välj preferences, C/C++ build -> settings -> gcc c++ compiler -> includes ) ska följande finnas med under include path  
+/usr/local/include  
+
+under gcc c++ linker->libraries skall följande finnas  
+opencv_core  
+freenect__sync  
+frenect  
+opencv_imgproc  
+opencv_highgui  
+
+i library search path  
+/usr/local/lib  
+/usr/local/lib64  
+
+
+
+Om programmet inte hittar filer när det startar:  
+skapa filen usr-loc-lib.conf med följande innehåll  
+
+/usr/local/lib  
+/usr/local/lib64  
+
+och lägg i /etc/ld.so.conf/  
+kör sedan   
+sudo ldconfig  
+
+
+taadaaaa
