@@ -34,10 +34,17 @@ Mall för inlägg:
     ÅÅÅÅ-MM-DD : NAMN
     beskrivning
 
-Frågor på det?
+Frågor på det?  
+
+Nyttiga länkar  
+--------------
+http://opencv-srf.blogspot.se/2011/09/object-detection-tracking-using-contours.html  
 
 
-För att utveckla behövs följande paket:
+
+
+Komma igång med utvecklingen  
+----------------------------
 
 OpenCv  https://help.ubuntu.com/community/OpenCV  
 
