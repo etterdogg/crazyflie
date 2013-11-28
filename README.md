@@ -50,7 +50,7 @@ För att fixa problem med att eclipse inte hittar funktioner och bibliotek
 i c++ compilerns include (högerklicka på projektet, välj preferences, C/C++ build -> settings -> gcc c++ compiler -> includes ) ska följande finnas med under include path  
 /usr/local/include  
 
-under gcc c++ linker->libraries skall följande finnas
+under gcc c++ linker->libraries skall följande finnas  
 opencv_core  
 freenect__sync  
 frenect  
