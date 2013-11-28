@@ -39,13 +39,27 @@ Frågor på det?
 
 För att utveckla behövs följande paket:
 
-OpenCv  https://help.ubuntu.com/community/OpenCV
-Freenect  http://openkinect.org/wiki/Getting_Started    skrolla ner till manual install
-eclipse med cdt plugin (help->install new software)
+OpenCv  https://help.ubuntu.com/community/OpenCV  
+
+Freenect  http://openkinect.org/wiki/Getting_Started    skrolla ner till manual install  
+
+eclipse med cdt plugin (help->install new software)  
 
 
-För att fixa problem med att eclipse inte hittar funktioner och bibliotek
-i c++ compilern 
+För att fixa problem med att eclipse inte hittar funktioner och bibliotek  
+i c++ compilerns include (högerklicka på projektet, välj preferences, C/C++ build -> settings -> gcc c++ compiler -> includes ) ska följande finnas med under include path
+/usr/local/include
+
+under gcc c++ linker->libraries skall följande finnas
+opencv_core
+freenect__sync
+frenect
+opencv_imgproc
+opencv_highgui
+
+i library search path
+/usr/local/lib
+/usr/local/lib64
 
 
 
@@ -55,6 +69,9 @@ skapa filen usr-loc-lib.conf med följande innehåll:
 /usr/local/lib
 /usr/local/lib64
 
+och lägg i /etc/ld.so.conf/
 kör sedan 
 sudo ldconfig 
 
+
+taadaaaa
