@@ -39,7 +39,7 @@ Frågor på det?
 Nyttiga länkar  
 --------------
 http://opencv-srf.blogspot.se/2011/09/object-detection-tracking-using-contours.html  
-
+http://docs.opencv.org/doc/user_guide/ug_highgui.html
 
 
 
